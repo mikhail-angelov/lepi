@@ -1,0 +1,35 @@
+{
+  "name": "lepi",
+  "version": "1.0.0",
+  "description": "command line tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./examples/basic.js"
+  },
+  "bin": {
+    "lepi": "./bin/lepi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhail-angelov/lepi.git"
+  },
+  "keywords": [
+    "command",
+    "line",
+    "cli",
+    "automation"
+  ],
+  "author": "Mikhail Angelov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikhail-angelov/lepi/issues"
+  },
+  "homepage": "https://github.com/mikhail-angelov/lepi#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander": "^2.16.0",
+    "figlet": "^1.2.0"
+  }
+}
