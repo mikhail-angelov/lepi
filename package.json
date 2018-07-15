@@ -1,10 +1,10 @@
 {
   "name": "lepi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "command line tool",
   "main": "index.js",
   "scripts": {
-    "test": "node ./examples/basic.js"
+    "test": "lepi ./examples/basic.js"
   },
   "bin": {
     "lepi": "./bin/lepi.js"

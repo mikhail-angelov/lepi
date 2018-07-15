@@ -20,9 +20,8 @@ program.on('--help', function(){
 })
 
 program.parse(process.argv);
-console.log('--', __dirname, program.config, program.path)
 if (program.config) {
-  require(path.join(__dirname, program.config))
+  require(path.join(process.cwd(), program.config))
 } else {
   require('./lepifile.js')
 }
